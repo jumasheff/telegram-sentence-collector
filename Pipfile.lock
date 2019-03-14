@@ -1,0 +1,57 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "9afadef1b164951d939e7e11565093893df7c41c390eb3c68062ed3e824c3b8b"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.6"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "django": {
+            "hashes": [
+                "sha256:066bad42cb4c66944e7efcf7304d3d17f7b0eb222e53958cdd866420d2e8b412",
+                "sha256:6a03ce2feafdd193a0ba8a26dbd9773e757d2e5d5e7933a62eac129813bd381a"
+            ],
+            "index": "pypi",
+            "version": "==1.8"
+        },
+        "django-telegram-bot": {
+            "hashes": [
+                "sha256:8154fe9352ca0b62ee83e5c96b74287c3e0a973ecfe599f6278c3e92f7d9c546",
+                "sha256:cc66d18d77d1cd9e6b44e0d82fd18fe856e00249739aa37bf2fe79fa36178ce6"
+            ],
+            "index": "pypi",
+            "version": "==0.6.0"
+        },
+        "djangorestframework": {
+            "hashes": [
+                "sha256:4962418a57804f8323282728a4f9b9496e78caec1adda352170697752eff01bf",
+                "sha256:5634b1ff56581bf0fe4075e86227fc9693c1ca031c7213c9ae942c445c24817b"
+            ],
+            "version": "==3.3.2"
+        },
+        "future": {
+            "hashes": [
+                "sha256:67045236dcfd6816dc439556d009594abf643e5eb48992e36beac09c2ca659b8"
+            ],
+            "version": "==0.17.1"
+        },
+        "python-telegram-bot": {
+            "hashes": [
+                "sha256:33955b9949f309e7fc4b06a86fab848d262b20a92a37ab4beebbe16af6d9fd7e",
+                "sha256:8a5f5fa8043a4fbd2f87f158adbd377207056dffdcca87619e600ef80f4b5768"
+            ],
+            "version": "==3.2.0"
+        }
+    },
+    "develop": {}
+}
