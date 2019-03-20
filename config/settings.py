@@ -108,4 +108,5 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'media', 'shared_static'),
 ]
 
+TELEGRAM_BOT_HANDLERS_CONF = 'handlers.handlers'
 SITE_ID = 1
