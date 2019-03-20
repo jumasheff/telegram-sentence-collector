@@ -110,3 +110,24 @@ STATICFILES_DIRS = [
 
 TELEGRAM_BOT_HANDLERS_CONF = 'handlers.handlers'
 SITE_ID = 1
+
+DEBUG_LOG_FILE = os.path.join(BASE_DIR, 'debug.log')
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'handlers': {
+        'file': {
+            'level': 'DEBUG',
+            'class': 'logging.FileHandler',
+            'filename': DEBUG_LOG_FILE,
+        },
+    },
+    'loggers': {
+        'django': {
+            'handlers': ['file'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+    },
+}
