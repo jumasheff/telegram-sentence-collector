@@ -6,6 +6,7 @@ logger = logging.getLogger(__name__)
 
 class StartView(TemplateCommandView):
     template_text = 'bot/messages/command_start_text.txt'
+    logger.debug('me here')
 
     def handle(self, bot, update, **kwargs):
         super().handle(bot, update, **kwargs)
