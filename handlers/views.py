@@ -5,4 +5,4 @@ logger = logging.getLogger(__name__)
 
 
 class StartView(TemplateCommandView):
-    template_text = 'bot/messages/command_start_text.txt'
+    template_text = 'handlers/messages/command_start_text.txt'
