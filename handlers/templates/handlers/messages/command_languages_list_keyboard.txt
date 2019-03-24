@@ -1,5 +1,5 @@
 {% load telegrambot_filters %}
 
 {% autoescape off %}
-List of languages|keyboard_field:"command=langs&field=code&per_line=1"
+'List of languages'|keyboard_field:"command=langs&field=code&per_line=1"
 {% endautoescape %}
