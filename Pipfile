@@ -6,8 +6,8 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-django = "==1.8"
-django-telegram-bot = "*"
+django = "==2.1.7"
+django-telegram-bot = {editable = true,git = "https://github.com/jumasheff/django-telegram-bot.git"}
 
 [requires]
 python_version = "3.5"

@@ -1,11 +1,11 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "9afadef1b164951d939e7e11565093893df7c41c390eb3c68062ed3e824c3b8b"
+            "sha256": "6ad484767d3f0e60749725ac7944d9bbc90877aee9647f41fb1de4dd82c291bf"
         },
         "pipfile-spec": 6,
         "requires": {
-            "python_version": "3.6"
+            "python_version": "3.5"
         },
         "sources": [
             {
@@ -16,41 +16,53 @@
         ]
     },
     "default": {
+        "certifi": {
+            "hashes": [
+                "sha256:59b7658e26ca9c7339e00f8f4636cdfe59d34fa37b9b04f6f9e9926b3cece1a5",
+                "sha256:b26104d6835d1f5e49452a26eb2ff87fe7090b89dfcaee5ea2212697e1e1d7ae"
+            ],
+            "version": "==2019.3.9"
+        },
         "django": {
             "hashes": [
-                "sha256:066bad42cb4c66944e7efcf7304d3d17f7b0eb222e53958cdd866420d2e8b412",
-                "sha256:6a03ce2feafdd193a0ba8a26dbd9773e757d2e5d5e7933a62eac129813bd381a"
+                "sha256:275bec66fd2588dd517ada59b8bfb23d4a9abc5a362349139ddda3c7ff6f5ade",
+                "sha256:939652e9d34d7d53d74d5d8ef82a19e5f8bb2de75618f7e5360691b6e9667963"
             ],
             "index": "pypi",
-            "version": "==1.8"
+            "version": "==2.1.7"
         },
         "django-telegram-bot": {
-            "hashes": [
-                "sha256:8154fe9352ca0b62ee83e5c96b74287c3e0a973ecfe599f6278c3e92f7d9c546",
-                "sha256:cc66d18d77d1cd9e6b44e0d82fd18fe856e00249739aa37bf2fe79fa36178ce6"
-            ],
-            "index": "pypi",
-            "version": "==0.6.0"
+            "editable": true,
+            "git": "https://github.com/jumasheff/django-telegram-bot.git",
+            "ref": "cc0c382140a087be5c3723a8283fa2cee72f7271"
         },
         "djangorestframework": {
             "hashes": [
-                "sha256:4962418a57804f8323282728a4f9b9496e78caec1adda352170697752eff01bf",
-                "sha256:5634b1ff56581bf0fe4075e86227fc9693c1ca031c7213c9ae942c445c24817b"
+                "sha256:8a435df9007c8b7d8e69a21ef06650e3c0cbe0d4b09e55dd1bd74c89a75a9fcd",
+                "sha256:f7a266260d656e1cf4ca54d7a7349609dc8af4fe2590edd0ecd7d7643ea94a17"
             ],
-            "version": "==3.3.2"
+            "version": "==3.9.2"
         },
         "future": {
             "hashes": [
+                "sha256:3fcf809328520091b10d8837696c349cab48b2fa7802c83199838c11d73ba52a",
                 "sha256:67045236dcfd6816dc439556d009594abf643e5eb48992e36beac09c2ca659b8"
             ],
             "version": "==0.17.1"
         },
         "python-telegram-bot": {
             "hashes": [
-                "sha256:33955b9949f309e7fc4b06a86fab848d262b20a92a37ab4beebbe16af6d9fd7e",
-                "sha256:8a5f5fa8043a4fbd2f87f158adbd377207056dffdcca87619e600ef80f4b5768"
+                "sha256:494ffdd76ffcca62ce6276906b0afe6e8e8c4245b78501404f723aec79949bff",
+                "sha256:4ff0b41c6cabff54b72bf57bd32861e7ef144525c17f821ea4155935b0dec69a"
             ],
-            "version": "==3.2.0"
+            "version": "==7.0.1"
+        },
+        "pytz": {
+            "hashes": [
+                "sha256:32b0891edff07e28efe91284ed9c31e123d84bea3fd98e1f72be2508f43ef8d9",
+                "sha256:d5f05e487007e29e03409f9398d074e158d920d36eb82eaf66fb1136b0c5374c"
+            ],
+            "version": "==2018.9"
         }
     },
     "develop": {}
