@@ -1,8 +1,8 @@
 from telegrambot.handlers import command
 
-from handlers.views import StartView
+from handlers.views import start
 
 
 urlpatterns = [
-    command('start', StartView.as_command_view()),
+    command('start', start),
 ]
