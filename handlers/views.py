@@ -18,7 +18,6 @@ class StartView(TemplateCommandView):
 
 def start(bot, update, **kwargs):
     template_text = 'handlers/messages/command_start_text.txt'
-    template_kbrd = get_template(template_keyboard)
     text = TextResponse(template_text, {}).render()
     keyboard = [[
         InlineKeyboardButton('Yes', callback_data='0'),
