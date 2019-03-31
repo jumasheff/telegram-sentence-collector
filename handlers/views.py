@@ -21,3 +21,7 @@ class AcceptView(TemplateCommandView):
 
 class ListLangsView(TemplateCommandView):
     template_text = 'handlers/messages/command_list_langs_text.txt'
+
+
+class LangView(TemplateCommandView):
+    template_text = 'handlers/messages/command_lang_text.txt'
