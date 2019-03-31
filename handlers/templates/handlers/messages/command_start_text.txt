@@ -1,1 +1,2 @@
-Start command
+Welcome to the sentence collection bot. Please, send `/accept` to accept the terms. Terms: this tool is built as an open source project and its contributors shall not be liable for any direct or indirect, special, consequential, or exemplary damages arising out its usage. By accepting these terms, you automatically accept Common Voice terms: https://voice.mozilla.org/en/terms
+If you don't want to accept the terms listed above, please, immediately stop using this bot.
