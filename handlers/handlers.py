@@ -12,6 +12,6 @@ urlpatterns = [
     command('start', StartView.as_command_view()),
     command('accept', AcceptView.as_command_view()),
     command('list', ListLangsView.as_command_view()),
-    regex(r'^[a-z]{2}$', LangView.as_command_view()),
+    regex(r'^/(?P<lang>[a-z]{2})$', LangView.as_command_view()),
     command('new', NewSentenceView.as_command_view()),
 ]
