@@ -1,11 +1,7 @@
-from django.conf.urls import include, url
+from django.urls import path, include
 from django.contrib import admin
 
 urlpatterns = [
-    # Examples:
-    # url(r'^$', 'config.views.home', name='home'),
-    # url(r'^blog/', include('blog.urls')),
-
-    url(r'^admin/', include(admin.site.urls)),
-    url(r'^telegrambot/', include('telegrambot.urls', namespace="telegrambot")),
+    path(r'admin/', admin.site.urls),
+    path(r'telegrambot/', include('telegrambot.urls', namespace="telegrambot")),
 ]
