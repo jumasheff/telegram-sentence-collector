@@ -39,6 +39,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    'django_nose',
     'telegrambot',
     'handlers',
 )
@@ -132,3 +133,5 @@ LOGGING = {
         },
     },
 }
+
+TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'
