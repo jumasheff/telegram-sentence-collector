@@ -110,7 +110,7 @@ STATICFILES_DIRS = [
 
 TELEGRAM_BOT_HANDLERS_CONF = 'handlers.handlers'
 SAVE_UPDATES = False
-/SITE_ID = 1
+SITE_ID = 1
 
 DEBUG_LOG_FILE = os.path.join(BASE_DIR, 'debug.log')
 
