@@ -1,1 +1,1 @@
-You can either submit /new sentences, or /validate already submitted ones
+You can either submit new sentences, or validate already submitted ones
