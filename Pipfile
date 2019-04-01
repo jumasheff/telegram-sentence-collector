@@ -6,10 +6,11 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-django = "==2.1.7"
+django = "==2.2"
 django-telegram-bot = {editable = true,git = "https://github.com/jumasheff/django-telegram-bot.git"}
 django-nose = "*"
 factory-boy = "*"
+sqlparse = "*"
 
 [requires]
 python_version = "3.5"
