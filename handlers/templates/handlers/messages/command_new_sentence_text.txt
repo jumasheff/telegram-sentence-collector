@@ -1,1 +1,0 @@
-The sentence is sent to {{lang_code}} sentences DB and is awaiting validation.

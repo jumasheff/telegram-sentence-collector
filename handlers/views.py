@@ -30,12 +30,35 @@ class LangView(TemplateCommandView):
         ctx = self.get_context(bot, update, **kwargs)
         text = TextResponse(self.template_text, ctx).render()
         keyboard = [[
-            InlineKeyboardButton('New sentence', callback_data='0'),
-            InlineKeyboardButton('Validate sentences', callback_data='1')
+            InlineKeyboardButton('New sentence', callback_data='add'),
+            InlineKeyboardButton('Validate sentences', callback_data='validate')
         ]]
         reply_markup = InlineKeyboardMarkup(keyboard)
         bot.send_message(chat_id=update.message.chat_id, text=text, reply_markup=reply_markup)
 
 
+class AddSentenceView(TemplateCommandView):
+    template_text = 'handlers/messages/command_add_sentence_text.txt'
+
+
 class NewSentenceView(TemplateCommandView):
-    template_text = 'handlers/messages/command_new_sentence_text.txt'
+    # Get previously set lang code and pass the sentence via API
+    pass
+
+
+class ValidateView(TemplateCommandView):
+    # Get previously set lang code and
+    # pull a sentence for validation and show inline keyboards
+    pass
+
+
+class ValidationValidView(TemplateCommandView):
+    # Get previously set lang code and
+    # get sentence id send a message saying that it's invalid
+    pass
+
+
+class ValidationInvalidView(TemplateCommandView):
+    # Get previously set lang code and
+    # get sentence id and send a message saying that it's valid
+    pass
