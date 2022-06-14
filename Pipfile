@@ -13,4 +13,4 @@ factory-boy = "*"
 sqlparse = "*"
 
 [requires]
-python_version = "3.5"
+python_version = "3.8"
